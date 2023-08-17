@@ -1,0 +1,120 @@
+
+</head>
+<body>
+    <div class="bg-home">
+        <header>
+            <nav class="header-content container">
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok fa-2x"></i>
+                    </a>
+                </div>
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500" src="/assets/logo.svg" alt="Logo da loja">
+                </div>
+                <div data-aos="fade-down">
+                    <a class="header-button" href="#">
+                        Agendar horário
+                    </a>
+                </div>
+            </nav>
+            <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+                <h1>ESTILO É UM REFLEXO DA SUA ATIVIDADE E SUA PERSONALIDADE</h1>
+                <p>Horário de funcionamento 09:00 ás 19:00</p>
+                <a href="https://api.whatsapp.com/send?phone=553100000000&text=Quero%20fazer%20um%20agendamento" class="button-contact" target="_blank">
+                    Agendar horário
+                </a>
+            </main>
+        </header>
+
+    </div>
+
+    <section class="about">
+        <div class="container about-content">
+            <div data-aos="zoom-in" data-aos-delay="100">
+                <img src="assets/images.svg" alt="Imagem Sobre">
+            </div>
+            <div class="about-description" data-aos="zoom-out-left" data-aos-delay="200">
+                <h2>Sobre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptate reiciendis quod labore ipsam libero exercitationem repellat facere et non facilis, quasi accusantium animi quia corrupti officiis dicta inventore quos?</p>
+                <div class="about-description-p2" data-aos="zoom-out-left" data-aos-delay="200">
+                    <p>Horário de funcionamento: <strong>09:00</strong> ás <strong>19:00</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="services-content container">
+            <h2>Serviços</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas earum eum eos vel illo soluta esse dolorem ad saepe, corrupti non ipsam impedit aut nesciunt aperiam autem, sunt corporis tempora?</p>
+        </div>
+        <section class="products">
+            <div class="product" data-aos="fade-up" data-aos-delay="150">
+                <img src="assets/corte1.png" alt="Produto 1">
+                <div class="product-info">
+                    <strong>Corte normal</strong>
+                    <button>
+                        R$ 45,00
+                    </button>
+                </div>
+            </div>
+            <div class="product" data-aos="fade-up" data-aos-delay="300">
+                <img src="assets/corte2.png" alt="Produto 2">
+                <div class="product-info">
+                    <strong>Barba completa</strong>
+                    <button>
+                        R$ 35,00
+                    </button>
+                </div>
+            </div>
+            <div class="product" data-aos="fade-up" data-aos-delay="450">
+                <img src="assets/corte3.png" alt="Produto 3">
+                <div class="product-info">
+                    <strong>Corte e barba</strong>
+                    <button>
+                        R$ 80,00
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!--FOOTER-->
+
+    <div class="services">
+        <h2>Venha conhecer</h2>
+    </div>
+    <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.7971402595285!2d-44.02259772574884!3d-19.97503173971043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6be09f5f345e5%3A0x95e7b181f6cf1ca3!2sViaShopping%20Barreiro!5e0!3m2!1spt-BR!2sbr!4v1691899564966!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+        </div>
+        <div>
+            <img src="assets/logo.svg" alt="Logo">
+        </div>
+        <p>Copyright 2023 | Todos direitos reservados</p>
+    </footer>
+
+    <a href="https://api.whatsapp.com/send?phone=553100000000&text=Quero%20fazer%20um%20agendamento" class="btn-whatsapp" data-aos="zoom-in-up" data-aos-delay="400" target="_blank">
+        <img src="assets/whatssapp.svg" alt="Botao Wpp">
+        <span class="tooltip-text">Agente seu horário!</span>
+    </a>
+    <script src="/script.js"></script>
+</body>
+</html>
